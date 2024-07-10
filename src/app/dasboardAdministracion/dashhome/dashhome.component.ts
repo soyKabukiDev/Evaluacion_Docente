@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-dashhome',
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
   templateUrl: './dashhome.component.html',
   styleUrl: './dashhome.component.scss'
 })
-export class DashhomeComponent {
+export default class DashhomeComponent {
 
 }
