@@ -7,6 +7,11 @@ export const routes: Routes = [
       import('./dasboardAdministracion/layout-admin/adminShell/admin.route'),
   },
   {
+    path: 'form',
+    loadComponent: () =>
+      import('./user/form/form.component'),
+  },
+  {
     path: '**',
     redirectTo: 'admin',
   },

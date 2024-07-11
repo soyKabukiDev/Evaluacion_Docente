@@ -10,6 +10,10 @@ export default [
                 loadComponent: () => import('../../dashhome/dashhome.component'),
             },
             {
+                path: 'estadisticas',
+                loadComponent: () => import('../../ranking/ranking.component'),
+            },
+            {
                 path:'',
                 redirectTo:'home',
                 pathMatch:'full'
