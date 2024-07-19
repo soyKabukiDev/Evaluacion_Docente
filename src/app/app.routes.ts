@@ -4,12 +4,7 @@ export const routes: Routes = [
   {
     path: 'admin',
     loadChildren: () =>
-      import('./dasboardAdministracion/layout-admin/adminShell/admin.route'),
-  },
-  {
-    path: 'form',
-    loadComponent: () =>
-      import('./user/form/form.component'),
+      import('./admin/shell/admin.routes'),
   },
   {
     path: '**',

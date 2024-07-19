@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './form-settings.component.html',
   styleUrl: './form-settings.component.scss'
 })
-export class FormSettingsComponent {
+export default class FormSettingsComponent {
 
 }

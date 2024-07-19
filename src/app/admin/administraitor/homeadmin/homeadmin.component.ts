@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './homeadmin.component.html',
   styleUrl: './homeadmin.component.scss'
 })
-export class HomeadminComponent {
+export default class HomeadminComponent {
 
 }
