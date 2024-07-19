@@ -10,5 +10,6 @@ import { RouterLink } from '@angular/router';
 })
 export class AsideadminComponent {
   userloginOn: boolean = true;
+  userRoll: string = 'admin';
 
 }

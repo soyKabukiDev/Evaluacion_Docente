@@ -21,10 +21,6 @@ export default[
                 loadComponent: () => import('../administraitor/useradmin/useradmin.component'),
             },
             {
-                path:'login',
-                loadComponent: () => import('../../auth/login/login.component'),
-            },
-            {
                 path:'',
                         redirectTo:'home',
                         pathMatch:'full'

@@ -7,7 +7,11 @@ export const routes: Routes = [
       import('./admin/shell/admin.routes'),
   },
   {
+    path: 'login',
+    loadComponent:() => import('./auth/login/login.component'),
+  },
+  {
     path: '**',
-    redirectTo: 'admin',
+    redirectTo: 'login',
   },
 ];
