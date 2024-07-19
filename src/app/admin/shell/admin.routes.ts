@@ -9,8 +9,8 @@ export default[
                 loadComponent: () => import('../administraitor/homeadmin/homeadmin.component'),
             },
             {
-                path:'settingform',
-                loadComponent: () => import('../administraitor/form-settings/form-settings.component'),
+                path:'comments',
+                loadComponent: () => import('../administraitor/comments/comments.component'),
             },
             {
                 path:'teachers',
