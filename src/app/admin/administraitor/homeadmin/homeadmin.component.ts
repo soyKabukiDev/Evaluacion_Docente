@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {FormSettingsComponent} from "../form-settings/form-settings.component";
+import {FormSettingsComponent} from "./form-settings/form-settings.component";
 import { RatingtableComponent } from '../teachersdata/ratingtable/ratingtable.component';
 
 @Component({
